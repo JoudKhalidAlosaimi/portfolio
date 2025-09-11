@@ -163,9 +163,9 @@ hr {
     border: 1px solid rgba(255,255,255,0.2);
     height: 200px;
     margin-left: 30px;
-    background-color: rgba(255, 255, 255, 0.338);
+    background-color: rgba(255, 255, 255, 0.496);
     box-shadow: 2px 4px 3px #a7caca;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(3px);
     border-radius: 50px;
     animation: text-appear both;
     animation-timeline: view() ;
@@ -195,6 +195,10 @@ hr {
     font-weight: 200;
 }
 
+.contentBox:hover {
+    box-shadow: 0px 15px 15px  #a7caca ;
+}
+
 .date {
     display: flex;
     font-size: 29px;
@@ -212,6 +216,10 @@ hr {
     justify-content: center;
     align-items: center;
     margin-top: 150px;
+}
+
+.skillsContainer h1 {
+    font-size: 40px;
 }
 
 .skillsBox {
@@ -239,9 +247,32 @@ hr {
     text-align: right;
   padding-top: 10px;
   padding-bottom: 10px;
-  color: white;
+  color: rgb(43, 40, 40);
+  background-color: #bdd5d5;
+  border-radius: 40px;
+  font-size: 23px;
+  padding-right: 10px;
 }
 
+#html {
+    width: 700px;
+}
+
+#css {
+    width: 600px;
+}
+
+#js {
+    width: 550px;
+}
+
+#Python {
+    width: 400px;
+}
+
+#sql {
+    width: 350px;
+}
 
 
 
