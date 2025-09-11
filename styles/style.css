@@ -206,6 +206,45 @@ hr {
     font-size: 28px;
 }
 
+.skillsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.skillsBox {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.skillContent {
+    width: 50em;
+}
+.skillName {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.completeContainer {
+    box-sizing: border-box;
+    background-color: #3e3a67;
+    border-radius: 40px;
+}
+
+.completeness {
+    text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+
+
+
 
 
 
