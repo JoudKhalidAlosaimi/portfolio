@@ -252,6 +252,17 @@ hr {
   border-radius: 40px;
   font-size: 23px;
   padding-right: 10px;
+  animation: completeShow 1s forwards;
+  animation-timeline: view();
+}
+
+@keyframes completeShow {
+    from {
+        width: 0;
+    }
+    to {
+        width: 1;
+    }
 }
 
 #html {
