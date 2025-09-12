@@ -291,6 +291,8 @@ hr {
     align-items: center;
     align-content: center;
     flex-direction: column;
+    animation: text-appear both;
+    animation-timeline: view() ;
 }
 
 .projectsContainer h1 {
@@ -304,7 +306,7 @@ hr {
 }
 
 .projectContent {
-     background-color: rgba(255, 255, 255, 0.496);
+    background-color: rgba(255, 255, 255, 0.496);
     box-shadow: 2px 4px 3px #a7caca;
     backdrop-filter: blur(3px);
     border-radius: 50px;
@@ -333,9 +335,73 @@ hr {
     font-size: 20px;
     font-family: 'Times New Roman', serif;
     font-weight: 200;
-    
+}
+
+.ContactContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 }
+
+.ContactContainer h1{
+    font-size: 40px;
+    margin-top: 200px;
+}
+.ContactContainer h2{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.form {
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, alpha0.2);
+    background: white;
+}
+
+.contactForm {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.contactForm input {
+    margin: 30px;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+.ContactContainer h3 {
+    margin-top: 100px;
+    font-size: 27px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer i {
+    font-size: 29px;
+    margin-bottom: 15px;
+}
+
+footer p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.social i {
+    font-size: 50px;
+}
+
 
 
 
