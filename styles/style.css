@@ -213,8 +213,8 @@ header img {
     border-left: 4px solid #a7caca;
 }
 .timelineContainer h1 {
-    color: #3e3a67;
-    font-size: 40px;
+    color: #dfdeeb;
+    font-size: 50px;
 }
 .timelineContainer h2 {
     display: flex;
@@ -294,6 +294,11 @@ header img {
 
 .skillsContainer h1 {
     font-size: 40px;
+    color: #e9e4e4;
+}
+
+#skill-title {
+    color: #eb7b30;
 }
 
 .skillsBox {
@@ -303,36 +308,54 @@ header img {
 }
 
 .skillContent {
-    width: 50em;
+    width: 35em;
 }
 .skillName {
     font-size: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
+    color: #efe4e4;
+}
+
+.skill-group-one {
+    display: flex;
+    gap: 40px;
+}
+
+.skill-group-two {
+    display: flex;
+    gap: 40px;
+}
+
+#SQL {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
 }
 
 .completeContainer {
     box-sizing: border-box;
-    background-color: #3e3a67;
+    background-color: #d0cedd;
     border-radius: 40px;
 }
 
 .completeness {
     text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: rgb(43, 40, 40);
-  background-color: #bdd5d5;
-  border-radius: 40px;
-  font-size: 23px;
-  padding-right: 10px;
-  animation: completeShow 1s forwards;
-  animation-timeline: view();
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(0, 0, 0);
+    background-color: #dc905d;
+    border-radius: 40px;
+    font-size: 23px;
+    font-weight: 700;
+    padding-right: 10px;
+    animation: completeShow 1s forwards;
+    animation-timeline: view();
 }
 
 @keyframes completeShow {
     from {
-        width: 0;
+        width: 20%;
     }
     to {
         width: 1;
@@ -340,23 +363,23 @@ header img {
 }
 
 #html {
-    width: 700px;
-}
+    width: 500px;
+} 
 
-#css {
-    width: 600px;
-}
-
-#js {
-    width: 550px;
-}
-
-#Python {
+#CSS {
     width: 400px;
 }
 
-#sql {
+#js {
     width: 350px;
+}
+
+#Python {
+    width: 300px;
+}
+
+#sql {
+    width: 230px;
 }
 
 .projectsContainer {
