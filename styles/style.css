@@ -63,7 +63,7 @@ header img {
 
 .navigation a:hover {
     text-decoration: line-through #243030;
-    color: #eb4f30;
+    color: #dc905d;
 }
 
 
@@ -146,6 +146,7 @@ header img {
     border: none;
     border-radius: 30px;
     padding: 3vw 5vw;
+    cursor: pointer;
 }
 #ResumeButton{
     background-color: #eb7b30;
@@ -245,8 +246,9 @@ header img {
     box-shadow: 2px 4px 3px #a7caca;
     backdrop-filter: blur(3px);
     border-radius: 50px;
-    animation: text-appear both;
+    animation: text-appear 1s both;
     animation-timeline: view() ;
+    cursor: pointer;
 }
 
 .contentBox:before{
@@ -414,7 +416,18 @@ header img {
 }
 
 #project-subtitle {
-    color: #dc905d;
+    background: linear-gradient(10deg, #f48530,#eb9a71,#eee9bc);
+    background-clip: text;
+    color: transparent;
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+}
+
+.grouped-projects {
+    display: flex;
+    gap: 3vw;
+    width: 90%;
+    height: auto;
 }
 
 .projectContent {
@@ -423,6 +436,7 @@ header img {
     border-radius: 50px;
     height: auto;
     width: 35%;
+    cursor: pointer;
 }
 
 .projectContent:hover {
@@ -507,6 +521,7 @@ header img {
     border: 2px solid #dc905d;
     box-shadow: 0px 0px 5px #dc905d;
     color: #d0cedd;
+    cursor: pointer;
 }
 
 textarea {
@@ -537,6 +552,7 @@ textarea::placeholder {
     justify-content: center;
     align-self: center;
     border-radius: 50px;
+    cursor: pointer;
 }
 
 
