@@ -10,15 +10,15 @@
     <script src="scripts/script.js"></script>
 </head>
 <body>
-    <header>
+    <header id="header">
         <img src="Creator.png" alt="Portfolio Creater" id="createrImg" >
         <nav class="navigation">
             <ul>
-                <li><a href="http://">Home</a></li>
-                <li><a href="http://">About Me</a></li>
-                <li> <a href="http://">Skills</a></li>
-                <li> <a href="http://">Projects</a></li>
-                <li> <a href="http://">Contact Me</a></li>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#About-Section">About Me</a></li>
+                <li> <a href="#Skill-Section">Skills</a></li>
+                <li> <a href="#Project-Section">Projects</a></li>
+                <li> <a href="#Contact-Section">Contact Me</a></li>
             </ul>
         </nav>
     </header>
@@ -32,7 +32,11 @@
             </div>
             <p>Here to turn your ideas into<span class="span">  reality! </span></p>
             <div class="introButton">
-                <button id="ContactMeButton"> Contact me <i class="fa-solid fa-arrow-right" style="color: eb7b30;"></i></button>
+                <a href="#Contact-Section">
+                    <button id="ContactMeButton"> Contact me 
+                        <i class="fa-solid fa-arrow-right" style="color: eb7b30;"></i>
+                    </button>
+                </a>
                 <a href="https://drive.google.com/file/d/1xlEvGejT9T3nEJBOx2PRPK0LKK8VmFIb/view?usp=sharing" target="_blank" id="Resume-link">
                     <button id="ResumeButton"> Download my resume 
                         <i class="fa-solid fa-download" style="color: #f5ebeb;"></i> 
@@ -40,7 +44,7 @@
             </div>
     </section>
 
-    <section id="secondSection">
+    <section id="About-Section">
         <div id="timelineContainer" class="autoShow" >
                     <h1>More About Me</h1>
                         <h2 class="heading"> 
@@ -90,7 +94,7 @@
         </div>
     </section>
 
-    <section id="thirdSection">
+    <section id="Skill-Section">
         <div class="skillsContainer">
             <h1> My Work <span id="skill-title">Skills</span></h1>
             <div class="skillsBox">
@@ -143,7 +147,7 @@
         </div>
     </section>
 
-    <section id="fourthSection">
+    <section id="Project-Section">
         <div class="projectsContainer">
             <h1> My Projects</h1>
             <h2>My Best Projects Are <span id="project-subtitle">Yet to Come.</span></h2>
@@ -156,7 +160,7 @@
         </div>
     </section>
 
-    <section id="fifthSection">
+    <section id="Contact-Section">
         <div class="ContactContainer">
             <h1> Get in Touch</h1>
             <h2>Let's create something <span id="Contact-subtitle"> great together!</span></h2>
@@ -166,8 +170,12 @@
 
                 <input type="email" id="email" placeholder="yourEmail@example.com" required>
 
+                <input type="text" id="subject" placeholder="Subject">
 
-                <input type="text" id="Message" placeholder="Got an idea? Let's talk.">
+
+                <textarea id="Message" placeholder="Got an idea? Let's talk."></textarea>
+
+                <button id="email-button"> Send Email</button>
             </form>
             </div>
 
@@ -178,9 +186,10 @@
 
     <footer>
 
-        <div class="social">
-            <i class="fa-brands fa-github"></i>
-            <i class="fa-brands fa-linkedin"></i>
+        <div class="social"> 
+
+            <a href="https://github.com/JoudKhalidAlosaimi" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/joud-khalid-alosaimi?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
         </div>
 
         <p>Thanks for visiting my portfolio 
