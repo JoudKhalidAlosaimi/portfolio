@@ -8,6 +8,8 @@ function init() {
     let formButton = document.querySelector("#email-button")
     let form = document.querySelector("#form")
     let backToTop = document.querySelector("#backToTopBtn")
+    let moreProjects = document.querySelector(".grouped-projects-two")
+    let moreBtn = document.querySelector("#see-more")
     // const as learned
     const serviceId = "service_ly1vvf2"
     const templateID = "template_e54tqsj"
@@ -31,7 +33,12 @@ function init() {
             alert('opps .. something went wrong, please try again')
         }
         )
-    } 
+    }
+
+    moreBtn.addEventListener('click', function() {
+        moreProjects.style.display = "flex"
+        moreBtn.style.display = "none"
+    })
 
     // copied from W3schools a few edits of my own
     window.onscroll = function(){scroll()}
